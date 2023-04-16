@@ -14,7 +14,7 @@ if (password === questinPass) {
 let password = 'пароль';
 let questinPass = String(prompt('Ведите пароль'));
 
-let result  = password === questinPass? alert('Пароль введен верно') : alert('Пароль введен неправильно');
+alert(password === questinPass? 'Пароль введен верно' : 'Пароль введен неправильно');
 
 
 //Задание 2
@@ -93,17 +93,16 @@ switch (monthNumber) {
 
 //Задание 7
 
-let zadannoeChislo = Number(prompt('Пожалуйста, введите любое число'));
+let zadannoeChislo = prompt('Пожалуйста, введите любое число');
 
-if (typeof (zadannoeChislo) == 'number') {
-    console.log(zadannoeChislo);
+if (isNaN(zadannoeChislo)) {
+    alert('Вы ввели не число');
 } else {
-    console.log('NuN');
-}
-if ((zadannoeChislo & 1) == 0) {
+    if (zadannoeChislo % 2 == 0) {
     alert('Число четное')
-} else {
-    alert('нечетное')
+    } else {
+        alert('нечетное')
+    }
 }
 
 //Задание 8
