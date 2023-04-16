@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+.top {
+    height: 1024px;
+    background: url(../img/fon1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top__header_h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 59px;
+    color: white;
+    padding-top: 217px;
+}
+
+.top__header_h2 {
+    font-weight: 300;
+    Font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-top: 32px;
+}
+
+.product__box {
+    height: 556px;
+    background: url(../img/fon2.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top__button_style {
+    font-weight: 400;
+    width: 200px;
+    height: 37px;
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    color: white;
+    font-family: Montserrat;
+    background: #9C0332;
+    margin-top: 44px;
+}
+
+.product__box_product {
+    width: 378px;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.product-content {
+    display: flex;
+    box-sizing: border-box;
+    gap: 32px;
+    position: relative;
+    text-align: center;
+    color: white;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.product-text {
+    font-weight: 600;
+    Font-size: 24px;
+    line-height: 32px;
+}
+
+.product__text-1 {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+}
+
+.product__text-2 {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+}
+
+.product__text-3 {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+}
+
+.product_img {
+    width: 100%;
+}
+
+@import 'mobile';
