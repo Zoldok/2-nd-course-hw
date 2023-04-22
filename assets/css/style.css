@@ -64,6 +64,11 @@ body {
   background: #9C0332;
   margin-top: 44px;
 }
+.top__button_style:hover {
+  background: #000000;
+  color: #FFFFFF;
+  font-family: Montserrat;
+}
 
 .product__box_product {
   width: 378px;
@@ -110,6 +115,37 @@ body {
 
 .product_img {
   width: 100%;
+}
+
+.game1 {
+  height: 800px;
+  background: url(../img/fon3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* align-content: center; */
+  justify-content: space-between;
+}
+.game1__text {
+  padding-top: 282px;
+}
+.game1__game-text {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: white;
+}
+.game1__game-text1 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: white;
+}
+.game1__img {
+  padding-top: 234px;
 }
 
 @media (max-width: 767px) {
