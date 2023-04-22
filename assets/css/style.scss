@@ -63,9 +63,7 @@ body {
     background: #9C0332;
     margin-top: 44px;
     &:hover {
-        background: #000000;
-        color: #FFFFFF;
-        font-family: Montserrat;
+        cursor: pointer;
     }
 }
 
@@ -74,7 +72,11 @@ body {
     display: flex;
     box-sizing: border-box;
     position: relative;
-}
+    &:hover {
+        border: 3px solid #0000FF;
+        border-radius: 20px;
+       }
+    }
 
 .product-content {
     display: flex;
@@ -144,6 +146,27 @@ body {
     }
     &__img {
         padding-top: 234px;
+    }
+    &__button_style {
+        font-weight: 400;
+        width: 200px;
+        height: 37px;
+        display: block;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        color: white;
+        font-family: Montserrat;
+        background: #9C0332;
+        margin-top: 44px;
+        &:hover {
+            cursor: url(../img/cours.svg);
+        }
     }
 }
 
