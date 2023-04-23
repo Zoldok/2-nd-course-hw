@@ -34,4 +34,43 @@
             width: 343px;
         }
     }
+
+    .game1 {
+        display: flex;
+        flex-direction: column;
+        // justify-content: flex-end;
+        flex-wrap: nowrap;
+        padding-top: 50px;
+        
+        &__game {
+            width: 344px;
+        }
+
+        &__img {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 84px;
+            padding-top: 64px;
+        }
+
+        &__game-text {
+            font-size: 32px;
+            line-height: 39px;
+        }
+
+        &__game-text1 {
+            font-size: 14px;
+            line-height: 22px;
+            padding-top: 32px;
+            text-align: center;
+        }
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 0px;
+        }
+    }
+
 }
