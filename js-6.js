@@ -57,7 +57,7 @@ let numbMassiv = [9, 8, 7, 6, 5];
 
 const numberUser = Number(prompt('Введите число от 1 до 10'));
 
-numbMassiv.includes(numberUser) ? alert('Есть такое') : alert('Попробуй еще раз');
+alert(numbMassiv.includes(numberUser) ? 'Есть такое' : 'Попробуй еще раз');
 
 //Задание 8
 
@@ -78,21 +78,10 @@ console.log(str);
 
 // Задание 9
 
-let numbOne = [1, 2, 3];
-let numbTwo = [4, 5, 6];
+let arr = [[1, 2, 3,],[4, 5, 6]];
+let newArr = arr.flat();
 
-let all = [...numbOne, ...numbTwo];
-
-console.log(all);
-
-// Задание 9 вариант 2
-
-let numbOne = [1, 2, 3];
-let numbTwo = [4, 5, 6];
-
-let all = numbOne.concat(numbTwo);
-
-console.log(all);
+console.log(newArr);
 
 //Задание 10
 
@@ -124,7 +113,8 @@ function getWordsLengths(words) {
 
 //Задание 13
 
-let num = [9, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-for (let i = 0; i < num.length; i++) num[i] = -num[i] || 0;
-console.log(num);
-
+let num = [9, -1, 2, 3, -4, 5, 6, -7, 8, 9];
+let negativeNum = num.filter(function(num) {
+	return num < 0;
+});
+console.log(negativeNum);
