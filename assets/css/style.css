@@ -149,6 +149,23 @@ body {
   padding-top: 234px;
 }
 
+.game2 {
+  height: 800px;
+  background: url(../img/fon4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* align-content: center; */
+  justify-content: space-between;
+}
+.game2__img {
+  padding-top: 234px;
+  padding-right: 135px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
