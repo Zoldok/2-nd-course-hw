@@ -12,6 +12,20 @@
   background-position: center;
   background-size: cover;
 }
+.top__header_h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 59px;
+  color: white;
+  padding-top: 217px;
+}
+.top__header_h2 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding-top: 32px;
+}
 
 .center {
   padding-left: calc(50% - 600px);
@@ -22,35 +36,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.top__header_h1 {
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 59px;
-  color: white;
-  padding-top: 217px;
-}
-
-.top__header_h2 {
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 32px;
-  color: #FFFFFF;
-  padding-top: 32px;
-}
-
-.product__box {
-  height: 556px;
-  background: url(../img/fon2.jpg);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding-bottom: 127px;
-}
-
-.top__button_style {
+.button_style {
   font-weight: 400;
-  width: 200px;
-  height: 37px;
+  width: 234px;
+  height: 48px;
   display: block;
   font-style: normal;
   font-size: 14px;
@@ -63,14 +52,25 @@ body {
   color: white;
   font-family: Montserrat;
   background: #9C0332;
-  margin-top: 44px;
 }
-.top__button_style:hover {
+.button_style:hover {
   background: #000000;
   color: #FFFFFF;
   font-family: Montserrat;
 }
 
+.top__button_style {
+  margin-top: 44px;
+}
+
+.product__box {
+  height: 556px;
+  background: url(../img/fon2.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 127px;
+}
 .product__box_product {
   width: 378px;
   display: flex;
@@ -118,8 +118,11 @@ body {
   width: 100%;
 }
 
+.game__button {
+  margin-top: 32px;
+}
+
 .game1 {
-  height: 800px;
   background: url(../img/fon3.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -129,6 +132,8 @@ body {
   flex-wrap: nowrap;
   /* align-content: center; */
   justify-content: space-between;
+  padding-bottom: 84px;
+  padding-top: 50px;
 }
 .game1__text {
   padding-top: 282px;
@@ -146,6 +151,23 @@ body {
   color: white;
 }
 .game1__img {
+  padding-top: 234px;
+}
+
+.game2 {
+  background: url(../img/fon4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* align-content: center; */
+  justify-content: space-between;
+  padding-bottom: 92px;
+  padding-top: 50px;
+}
+.game2__img {
   padding-top: 234px;
 }
 
@@ -182,7 +204,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding-top: 50px;
+    justify-content: flex-start;
   }
   .game1__game {
     width: 344px;
@@ -208,5 +230,21 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 0px;
+  }
+  .game2 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 0px;
+    justify-content: flex-end;
+  }
+  .game2__img {
+    display: flex;
+    margin-bottom: 84px;
+    padding-top: 64px;
+    align-items: center;
+    justify-content: center;
+  }
+  .game2__game {
+    width: 344px;
   }
 }/*# sourceMappingURL=style.css.map */

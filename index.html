@@ -21,7 +21,7 @@
                 <b>приступай</b>
             </h2>
             <div class="top__button">
-                <button class="top__button_style">Поехали</button>
+                <button class="top__button_style button_style">Поехали</button>
             </div>
         </header>
     </div>
@@ -44,17 +44,30 @@
     <div class="game1 center">
         <div class="game1__text">
             <h1 class="game1__game-text">Времена года!</h1>
-            <h2 class="game1__game-text1">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому
+            <h2 class="game1__game-text1">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы <br>узнаете к какому
                 времени года он относится</h2>
-            <div class="top__button">
-                <button onclick="playFirstGame()" class="top__button_style">Поехали</button>
+            <div>
+                <button onclick="playFirstGame()" class="button_style game__button">Поехали</button>
             </div>
         </div>
         <div class="game1__img">
             <p><a href="#"><img src="./assets/img/game1.png" alt="game" class="game1__game"></a></p>
         </div>
     </div>
+    <div class="game2 center">
+        <div class="game2__img">
+            <p><a href="#"><img src="./assets/img/game2.png" alt="game" class="game2__game"></a></p>
+        </div>
+        <div class="game1__text">
+            <h1 class="game1__game-text">Запомни слова </h1>
+            <h2 class="game1__game-text1">При нажатии на кнопку играть, вы увидите несколько слов, <br>которые вам необходимо запомнить.</h2>
+            <div>
+                <button onclick="fructShow()" class="button_style game__button">Поехали</button>
+            </div>
+        </div>
+    </div>
     <script src="game1.js"></script>
+    <script src="game2.js"></script>
 </body>
 
 </html>
